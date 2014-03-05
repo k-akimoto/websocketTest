@@ -35,6 +35,7 @@ gem 'bootstrap-sass'
 
 gem 'sqlite3', groups: %w(test development), require: false
 gem 'pg', groups: %w(production), require: false
+gem 'rails_12factor', groups: %w(production), require: false
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
