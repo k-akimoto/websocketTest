@@ -38,7 +38,6 @@ group :production do
 end
 group :development, :test do
   gem 'sqlite3'
-  gem 'sqlite3-ruby', :require => 'sqlite3' ※ これはインストールしている場合に必要
 end
 
 # Use ActiveModel has_secure_password
