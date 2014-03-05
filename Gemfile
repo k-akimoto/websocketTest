@@ -33,12 +33,12 @@ end
 gem 'websocket-rails'
 gem 'bootstrap-sass'
 
-group :production do
-  gem 'pg'
-end
-group :development, :test do
-  gem 'sqlite3'
-end
+# group :production do
+#   gem 'pg'
+# end
+# group :development, :test do
+#   gem 'sqlite3'
+# end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
