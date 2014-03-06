@@ -6,7 +6,7 @@ class ChatController < WebsocketRails::BaseController
 
   	def new_message
 	  # messageという変数が送られてくる
-	  puts 'call new_message:' + message
+	  puts "call new_message: #{message}"
 	  broadcast_message :new_message, message
 	end
 end
